@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+    /* Biru tua: tombol & aksen utama (Daftar / Masuk) */
+    --color-brand-50: #eef6fc;
+    --color-brand-100: #d7e9f7;
+    --color-brand-500: #1b73b4;
+    --color-brand-600: #0b5a9c;
+    --color-brand-700: #08487e;
+    --color-brand-900: #052f52;
+
+    /* Biru langit: kata "Online" & latar dekoratif */
+    --color-aqua-100: #def3fa;
+    --color-aqua-200: #c4e9f6;
+    --color-aqua-300: #9bd9ee;
+    --color-aqua-500: #3db4e3;
+    --color-aqua-600: #1e9ccf;
+}
+
+@layer base {
+    body {
+        @apply bg-white text-slate-800 antialiased;
+    }
+}
