@@ -7,7 +7,7 @@
     <div>
         <span class="inline-flex items-center gap-2 rounded-full bg-white px-3.5 py-1.5 text-xs font-bold text-brand-600 shadow-sm ring-1 ring-brand-100">
             <span class="h-2 w-2 rounded-full bg-aqua-500"></span>
-            Penerimaan Peserta Didik Baru {{ config('spmb.tahun_ajaran') }}
+            Sistem Penerimaan Siswa Baru {{ config('spmb.tahun_ajaran') }}
         </span>
         <h1 class="mt-5 text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl">
             Daftar sekolah jadi <span class="text-aqua-600">lebih mudah</span>, dari mana saja.
